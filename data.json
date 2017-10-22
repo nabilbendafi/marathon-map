@@ -12,6 +12,15 @@
         "time": "3:35:50"
       },
       {
+        "country": "Germany",
+        "country_code2": "DE",
+        "city": "Berlin",
+        "date": "05/06/2010",
+        "name": "37. real,- Berlin Marathon",
+        "ranking": "4278",
+        "time": "3:22:57"
+      },
+      {
         "country": "France",
         "country_code2": "FR",
         "city": "Nice",
@@ -138,6 +147,15 @@
         "time": "3:02:32"
       },
       {
+        "country": "Lithuania",
+        "country_code2": "LT",
+        "city": "Vilinius",
+        "name": "Danske Bank Vilniaus Maratonas",
+        "date": "2012/09/09",
+        "ranking": "",
+        "time": "3:11:10"
+      },
+      {
         "country": "Turkey",
         "country_code2": "TR",
         "city": "Istanbul",
@@ -172,6 +190,33 @@
         "date": "2016/11/13",
         "ranking": "1074",
         "time": "3:32:21"
+      },
+      {
+        "country": "Estonia",
+        "country_code2": "EE",
+        "city": "Tallinn",
+        "name": "SEB Tallinna Maraton",
+        "date": "2013/09/08",
+        "ranking": "230",
+        "time": "3:25:34"
+      },
+      {
+        "country": "Denmark",
+        "country_code2": "DK",
+        "city": "Copenhagen",
+        "name": "Nykredit København Marathon",
+        "date": "2011/05/22",
+        "ranking": "",
+        "time": "3:13:30"
+      },
+      {
+        "country": "Finland",
+        "country_code2": "FI",
+        "city": "Helsinki",
+        "name": "Helsinki City Marathon",
+        "date": "2016/11/13",
+        "ranking": "301",
+        "time": "3:24:29"
       },
       {
         "country": "Ireland",
