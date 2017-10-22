@@ -4,13 +4,15 @@
     "marathons": [
       {
         "country": "Sweden",
+        "country_code2": "SE",
         "date": "05/06/2010",
         "name": "33rd Asics Stockholm Marathon",
-        "time": "3:35:50",
-        "ranking": ""
+        "ranking": "",
+        "time": "3:35:50"
       },
       {
         "country": "France",
+        "country_code2": "FR",
         "date": "2011/11/20",
         "name": "Marathon des Alpes-Maritimes",
         "ranking": "596",
@@ -18,6 +20,7 @@
       },
       {
         "country": "Italy",
+        "country_code2": "IT",
         "name": "Maratona di Roma",
         "date": "2012/03/18",
         "ranking": "712",
@@ -25,6 +28,7 @@
       },
       {
         "country": "Austria",
+        "country_code2": "AT",
         "name": "Vienna City Marathon 2012",
         "date": "2012/04/15",
         "ranking": "354",
@@ -32,6 +36,7 @@
       },
       {
         "country": "Czech Republic",
+        "country_code2": "CZ",
         "name": "Volkswagen Prague Marathon",
         "date": "2012/05/13",
         "ranking": "328",
@@ -39,6 +44,7 @@
       },
       {
         "country": "Belgium",
+        "country_code2": "BE",
         "name": "Brussels Marathon",
         "date": "2012/10/07",
         "ranking": "123",
@@ -46,6 +52,7 @@
       },
       {
         "country": "Portugal",
+        "country_code2": "PT",
         "name": "Lisboa Marathon",
         "date": "2012/12/09",
         "ranking": "123",
@@ -53,6 +60,7 @@
       },
       {
         "country": "Slovakia",
+        "country_code2": "SK",
         "name": "Bratislava Marathon",
         "date": "2013/03/24",
         "ranking": "75",
@@ -60,6 +68,7 @@
       },
       {
         "country": "Spain",
+        "country_code2": "ES",
         "name": "Rock'n'Roll Madrid Marathon",
         "date": "2013/04/28",
         "ranking": "1017",
@@ -81,6 +90,7 @@
       },
       {
         "country": "France",
+        "country_code2": "FR",
         "name": "Schneider Electric Marathon de Paris",
         "date": "2014/04/06",
         "ranking": "1142",
@@ -88,6 +98,7 @@
       },
       {
         "country": "Luxembourg",
+        "country_code2": "LU",
         "name": "ING Night Marathon",
         "date": "2014/05/31",
         "ranking": "42",
@@ -95,6 +106,7 @@
       },
       {
         "country": "Norway",
+        "country_code2": "NO",
         "name": "BMW Oslo Marathon",
         "date": "2014/09/20",
         "ranking": "",
@@ -102,6 +114,7 @@
       },
       {
         "country": "Slovenia",
+        "country_code2": "SI",
         "name": "Volkswagen 19th Ljubljana marathon",
         "date": "2014/10/26",
         "ranking": "",
@@ -109,20 +122,23 @@
       },
       {
         "country": "Turkey",
+        "country_code2": "TR",
         "name": "36. Vodafone Istanbul Maratonu",
         "date": "2014/11/26",
         "ranking": "",
         "time": "3:11:19"
       },
       {
-        "country": "Nederlands",
+        "country": "Netherlands",
+        "country_code2": "NL",
         "name": "TCS Amsterdam Marathon",
         "date": "2015/10/18",
         "ranking": "",
         "time": "3:13:08"
       },
       {
-        "country": "Roumania",
+        "country": "Romania",
+        "country_code2": "RO",
         "name": "Raiffeisen Bank Bucharest Marathon",
         "date": "2016/10/09",
         "ranking": "",
@@ -130,6 +146,7 @@
       },
       {
         "country": "Greece",
+        "country_code2": "GR",
         "name": "Athens Authentic Marathon",
         "date": "2016/11/13",
         "ranking": "1074",
@@ -137,6 +154,7 @@
       },
       {
         "country": "Ireland",
+        "country_code2": "IE",
         "name": "SSE Airtricity Dublin Marathon",
         "date": "2017/10/29",
         "ranking": "",
