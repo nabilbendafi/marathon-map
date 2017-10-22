@@ -4,6 +4,20 @@ $(function(){
     var count_marathons = _.countBy(marathons, 'country_code2');
     $('#world-map').vectorMap({
       map: 'world_mill',
+      markers: marathons.map(function(marathon) {
+        var latLng = [marathon.lat, marathon.lng];
+        var name = marathon.name + ' - ' + marathon.date;
+        name += ' (' + marathon.time + ')';
+
+        console.log({latLng: latLng, name: name});
+        return {latLng: latLng, name: name};
+      }),
+      markerStyle: {
+        initial: {
+          fill: '#F8E23B',
+          stroke: '#383f47'
+        }
+      },
       series: {
         regions: [{
           values: count_marathons,
