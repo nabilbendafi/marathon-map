@@ -6,10 +6,8 @@ $(function(){
       map: 'world_mill',
       markers: marathons.map(function(marathon) {
         var latLng = [marathon.lat, marathon.lng];
-        var name = marathon.name + ' - ' + marathon.date;
-        name += ' (' + marathon.time + ')';
+        var name = marathon.name;
 
-        console.log({latLng: latLng, name: name});
         return {latLng: latLng, name: name};
       }),
       markerStyle: {
@@ -29,6 +27,14 @@ $(function(){
       onRegionTipShow: function(e, el, code){
         if (count_marathons[code])
           el.html(el.html() + ': ' + count_marathons[code]);
+      },
+      onMarkerTipShow: function(e, el, code){
+        if (marathons[code]){
+          var marathon = marathons[code];
+          var text = '(' + marathon.date + ')<br>' + marathon.time;
+
+          el.html(el.html() + ' ' + text);
+        }
       }
     });
   });
