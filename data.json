@@ -276,6 +276,17 @@
         "date": "2017/10/29",
         "ranking": "934",
         "time": "3:10:52"
+      },
+      {
+        "country": "Macedonia",
+        "country_code2": "MK",
+        "city": "Skopje",
+        "lat": 41.9973462,
+        "lng": 21.4279956,
+        "name": "Wizz Air Skopje Marathon 2018",
+        "date": "2018/05/29",
+        "ranking": "42",
+        "time": "3:40:37"
       }
     ]
   }
