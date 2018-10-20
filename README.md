@@ -6,11 +6,11 @@ A simple vector map representing all the marathons I've run so far.
 
 ## Lat/Lng
 
-[Google geocoding API](https://developers.google.com/maps/documentation/geocoding) is used to retrive city's coordinates
+[photon](http://photon.komoot.de/) is used to retrive city's coordinates
 
 ex. for Dublin (Ireland)
 ```bash
-curl http://maps.googleapis.com/maps/api/geocode/json?address=Dublin | jq '.results[0].geometry.location'
+curl "photon.komoot.de/api/?q=Dublin&limit=1" | jq '.features[0].geometry.coordinates'
 ```
 
 ## Libraries
